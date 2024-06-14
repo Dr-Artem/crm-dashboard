@@ -1,0 +1,330 @@
+[
+    {
+        "Customer Name": "Jane Cooper",
+        "Company": "Microsoft",
+        "Phone Number": "(225) 555-0118",
+        "Email": "jane@microsoft.com",
+        "Country": "United States",
+        "Status": true
+    },
+    {
+        "Customer Name": "Floyd Miles",
+        "Company": "Yahoo",
+        "Phone Number": "(205) 555-0100",
+        "Email": "floyd@yahoo.com",
+        "Country": "Kiribati",
+        "Status": false
+    },
+    {
+        "Customer Name": "Ronald Richards",
+        "Company": "Adobe",
+        "Phone Number": "(302) 555-0107",
+        "Email": "ronald@adobe.com",
+        "Country": "Israel",
+        "Status": false
+    },
+    {
+        "Customer Name": "Marvin McKinney",
+        "Company": "Tesla",
+        "Phone Number": "(252) 555-0126",
+        "Email": "marvin@tesla.com",
+        "Country": "Iran",
+        "Status": true
+    },
+    {
+        "Customer Name": "Jerome Bell",
+        "Company": "Google",
+        "Phone Number": "(629) 555-0129",
+        "Email": "jerome@google.com",
+        "Country": "Réunion",
+        "Status": true
+    },
+    {
+        "Customer Name": "Kathryn Murphy",
+        "Company": "Microsoft",
+        "Phone Number": "(406) 555-0120",
+        "Email": "kathryn@microsoft.com",
+        "Country": "Curaçao",
+        "Status": true
+    },
+    {
+        "Customer Name": "Jacob Jones",
+        "Company": "Yahoo",
+        "Phone Number": "(208) 555-0112",
+        "Email": "jacob@yahoo.com",
+        "Country": "Brazil",
+        "Status": true
+    },
+    {
+        "Customer Name": "Kristin Watson",
+        "Company": "Facebook",
+        "Phone Number": "(704) 555-0127",
+        "Email": "kristin@facebook.com",
+        "Country": "Åland Islands",
+        "Status": false
+    },
+    {
+        "Customer Name": "Jane Cooper",
+        "Company": "Microsoft",
+        "Phone Number": "(225) 555-0118",
+        "Email": "jane@microsoft.com",
+        "Country": "United States",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Floyd Miles",
+        "Company": "Yahoo",
+        "Phone Number": "(205) 555-0100",
+        "Email": "floyd@yahoo.com",
+        "Country": "Kiribati",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Ronald Richards",
+        "Company": "Adobe",
+        "Phone Number": "(302) 555-0107",
+        "Email": "ronald@adobe.com",
+        "Country": "Israel",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Marvin McKinney",
+        "Company": "Tesla",
+        "Phone Number": "(252) 555-0126",
+        "Email": "marvin@tesla.com",
+        "Country": "Iran",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Jerome Bell",
+        "Company": "Google",
+        "Phone Number": "(629) 555-0129",
+        "Email": "jerome@google.com",
+        "Country": "Réunion",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Kathryn Murphy",
+        "Company": "Microsoft",
+        "Phone Number": "(406) 555-0120",
+        "Email": "kathryn@microsoft.com",
+        "Country": "Curaçao",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Jacob Jones",
+        "Company": "Yahoo",
+        "Phone Number": "(208) 555-0112",
+        "Email": "jacob@yahoo.com",
+        "Country": "Brazil",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Kristin Watson",
+        "Company": "Facebook",
+        "Phone Number": "(704) 555-0127",
+        "Email": "kristin@facebook.com",
+        "Country": "Åland Islands",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Paul Hayes",
+        "Company": "Amazon",
+        "Phone Number": "(507) 555-0142",
+        "Email": "paul@amazon.com",
+        "Country": "Canada",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Emma Walker",
+        "Company": "Netflix",
+        "Phone Number": "(318) 555-0134",
+        "Email": "emma@netflix.com",
+        "Country": "Australia",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Liam Scott",
+        "Company": "Spotify",
+        "Phone Number": "(620) 555-0198",
+        "Email": "liam@spotify.com",
+        "Country": "New Zealand",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Olivia Davis",
+        "Company": "Apple",
+        "Phone Number": "(415) 555-0173",
+        "Email": "olivia@apple.com",
+        "Country": "United Kingdom",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Noah Martinez",
+        "Company": "IBM",
+        "Phone Number": "(214) 555-0161",
+        "Email": "noah@ibm.com",
+        "Country": "Mexico",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Sophia Brown",
+        "Company": "Twitter",
+        "Phone Number": "(517) 555-0185",
+        "Email": "sophia@twitter.com",
+        "Country": "Germany",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Mason Wilson",
+        "Company": "LinkedIn",
+        "Phone Number": "(719) 555-0194",
+        "Email": "mason@linkedin.com",
+        "Country": "France",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Ava Moore",
+        "Company": "Salesforce",
+        "Phone Number": "(619) 555-0119",
+        "Email": "ava@salesforce.com",
+        "Country": "Italy",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Elijah Thompson",
+        "Company": "Oracle",
+        "Phone Number": "(405) 555-0152",
+        "Email": "elijah@oracle.com",
+        "Country": "Spain",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Isabella Lee",
+        "Company": "Cisco",
+        "Phone Number": "(213) 555-0177",
+        "Email": "isabella@cisco.com",
+        "Country": "Netherlands",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "James Harris",
+        "Company": "SAP",
+        "Phone Number": "(518) 555-0193",
+        "Email": "james@sap.com",
+        "Country": "Sweden",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Mia Clark",
+        "Company": "Uber",
+        "Phone Number": "(816) 555-0121",
+        "Email": "mia@uber.com",
+        "Country": "Japan",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Lucas Lewis",
+        "Company": "Pinterest",
+        "Phone Number": "(202) 555-0182",
+        "Email": "lucas@pinterest.com",
+        "Country": "South Korea",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Amelia Young",
+        "Company": "Adobe",
+        "Phone Number": "(719) 555-0148",
+        "Email": "amelia@adobe.com",
+        "Country": "Switzerland",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Henry Allen",
+        "Company": "Slack",
+        "Phone Number": "(213) 555-0197",
+        "Email": "henry@slack.com",
+        "Country": "Ireland",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Evelyn King",
+        "Company": "Zoom",
+        "Phone Number": "(302) 555-0169",
+        "Email": "evelyn@zoom.com",
+        "Country": "Norway",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Alexander Scott",
+        "Company": "Shopify",
+        "Phone Number": "(415) 555-0187",
+        "Email": "alexander@shopify.com",
+        "Country": "Finland",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Charlotte Green",
+        "Company": "Twitch",
+        "Phone Number": "(507) 555-0125",
+        "Email": "charlotte@twitch.com",
+        "Country": "Denmark",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Sebastian Baker",
+        "Company": "Square",
+        "Phone Number": "(318) 555-0196",
+        "Email": "sebastian@square.com",
+        "Country": "Belgium",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "Harper Martinez",
+        "Company": "TikTok",
+        "Phone Number": "(619) 555-0188",
+        "Email": "harper@tiktok.com",
+        "Country": "Austria",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Daniel Rodriguez",
+        "Company": "Paypal",
+        "Phone Number": "(720) 555-0150",
+        "Email": "daniel@paypal.com",
+        "Country": "Portugal",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Aria Perez",
+        "Company": "Stripe",
+        "Phone Number": "(313) 555-0171",
+        "Email": "aria@stripe.com",
+        "Country": "Poland",
+        "Status": "Inactive"
+    },
+    {
+        "Customer Name": "William Hall",
+        "Company": "Squarespace",
+        "Phone Number": "(414) 555-0139",
+        "Email": "william@squarespace.com",
+        "Country": "Greece",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Sofia Lopez",
+        "Company": "Zendesk",
+        "Phone Number": "(615) 555-0141",
+        "Email": "sofia@zendesk.com",
+        "Country": "Czech Republic",
+        "Status": "Active"
+    },
+    {
+        "Customer Name": "Oliver Nelson",
+        "Company": "Dropbox",
+        "Phone Number": "(517) 555-0190",
+        "Email": "oliver@dropbox.com",
+        "Country": "Hungary",
+        "Status": "Inactive"
+    }
+]
