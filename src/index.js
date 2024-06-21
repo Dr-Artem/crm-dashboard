@@ -1,6 +1,7 @@
 import { customers } from './customers.js';
 import customerItemTemplate from './templates/customerItemTemplate.hbs';
 import paginationItemTemplate from './templates/paginationItemTemplate.hbs';
+import gsap from 'gsap';
 
 export default class Main {
     constructor() {
@@ -29,6 +30,8 @@ export default class Main {
     renderTable(customers) {
         this.tableBody.innerHTML = '';
         this.tableBody.insertAdjacentHTML('beforeend', customerItemTemplate(customers));
+
+        gsap.fromTo('.table__body-row', { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.1 });
     }
 
     renderPagination(totalItems, itemsPerPage, currentPage) {
