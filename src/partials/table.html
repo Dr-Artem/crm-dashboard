@@ -1,0 +1,45 @@
+<section class="customers section">
+    <div class="customers__container container">
+        <div class="customers__head">
+            <div class="customers__head-wrapper">
+                <h2 class="customers__head-title">All Customers</h2>
+                <span class="customers__head-subtitle">Active Members</span>
+            </div>
+
+            <form class="customers__head-form form" action="">
+                <button class="form__search">
+                    <svg class="form__search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                            stroke="#7E7E7E"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path d="M21 21L16.65 16.65" stroke="#7E7E7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <input class="form__input-text" type="text" placeholder="Search" />
+            </form>
+        </div>
+
+        <table class="customers__table table" id="customerTable">
+            <thead class="table__head">
+                <tr class="table__head-row">
+                    <th class="table__head-cell">Customer Name</th>
+                    <th class="table__head-cell">Company</th>
+                    <th class="table__head-cell">Phone Number</th>
+                    <th class="table__head-cell">Email</th>
+                    <th class="table__head-cell">Country</th>
+                    <th class="table__head-cell">Status</th>
+                </tr>
+            </thead>
+            <tbody class="table__body"></tbody>
+        </table>
+
+        <div class="customers__footer">
+            <p class="customers__footer-count"></p>
+            <ul class="customers__footer-pagination pagination"></ul>
+        </div>
+    </div>
+</section>

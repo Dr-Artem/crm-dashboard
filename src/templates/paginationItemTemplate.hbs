@@ -1,0 +1,47 @@
+{{#if hasPrev}}
+    <li class='pagination__item'>
+        <button class='pagination__btn' data-page='{{prevPage}}'>
+            <svg class="pagination__icon pagination__icon--left" width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </li>
+{{else}}
+    <li class='pagination__item'>
+        <button class='pagination__btn disabled' disabled>
+            <svg class="pagination__icon pagination__icon--left" width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </li>
+{{/if}}
+
+{{#each pages}}
+    {{#if ellipsis}}
+        <li class='pagination__item'>
+            <button class='pagination__btn ellipsis' disabled>...</button>
+        </li>
+    {{else}}
+        <li class='pagination__item'>
+            <button class='pagination__btn {{#if active}}active{{/if}}' data-page='{{number}}'>{{number}}</button>
+        </li>
+    {{/if}}
+{{/each}}
+
+{{#if hasNext}}
+    <li class='pagination__item'>
+        <button class='pagination__btn' data-page='{{nextPage}}'>
+            <svg class="pagination__icon pagination__icon--right" width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </li>
+{{else}}
+    <li class='pagination__item'>
+        <button class='pagination__btn disabled' disabled>
+            <svg class="pagination__icon pagination__icon--right" width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </li>
+{{/if}}

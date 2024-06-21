@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--poppins-family);
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    margin: 0;
+
+    @media screen and (min-width: 968px) {
+        display: grid;
+        grid-template-columns: min-content 1fr;
+    }
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+button {
+    display: block;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+
+span {
+    display: block;
+    padding: 0;
+    margin: 0;
+}

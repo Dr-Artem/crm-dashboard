@@ -1,0 +1,10 @@
+{{#each this}}
+    <tr class='table__body-row'>
+        <td class='table__body-cell' data-label='Customer Name'>{{this.customerName}}</td>
+        <td class='table__body-cell' data-label='Company'>{{this.company}}</td>
+        <td class='table__body-cell' data-label='Phone Number'>{{this.phoneNumber}}</td>
+        <td class='table__body-cell' data-label='Email'>{{this.email}}</td>
+        <td class='table__body-cell' data-label='Country'>{{this.country}}</td>
+        <td class='table__body-cell {{#if this.status}}active{{else}}inactive{{/if}}' data-label='Status'><span>{{#if this.status}}Active{{else}}Inactive{{/if}}</span></td>
+    </tr>
+{{/each}}

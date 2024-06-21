@@ -1,0 +1,44 @@
+:root {
+    --alternative-bg-color: #fff;
+    --main-bg-color: #fafbff;
+
+    --main-text-color: #292d32;
+    --muted-text-color: #b5b7c0;
+    --alternative-text-color: #9197b3;
+    --accent-text-color: #16c098;
+
+    --main-button-bg-color: #f5f5f5;
+    --main-button-text-color: #404b52;
+    --main-button-stroke-color: #eeeeee;
+    --main-button-active-bg-color: #5932ea;
+    --main-button-active-text-color: #ffffff;
+    --main-button-active-stroke-color: #404b52;
+
+    --main-button-hover-bg-color: #5a32eaa2;
+
+    --active-button-color: #16c09861;
+    --active-button-text-color: #008767;
+    --active-button-stroke-color: #00b087;
+
+    --inactive-button-color: #ffc5c5;
+    --inactive-button-text-color: #df0404;
+    --inactive-button-stroke-color: #df0404;
+
+    --icon-color: #9197b3;
+    --icon-active-color: #ffffff;
+
+    --poppins-family: 'Poppins', sans-serif;
+    --poppins-font-weight-400: 400;
+    --poppins-font-weight-500: 500;
+    --poppins-font-weight-600: 600;
+    --poppins-font-weight-700: 700;
+
+    --general-transition-effect: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --general-transition-effect-2: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+$mobile: 320px;
+$pre-tablet: 767.98px;
+$tablet: 768px;
+$pre-desktop: 1199.98px;
+$desktop: 1200px;
